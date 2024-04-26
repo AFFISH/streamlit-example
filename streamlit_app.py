@@ -30,7 +30,7 @@ df = pd.DataFrame({
     "rand": np.random.randn(num_points),
 })
 
-st.altair_chart(alt.Chart(df, height=800, width=700)
+st.altair_chart(alt.Chart(df, height=900, width=700)
     .mark_point(filled=True)
     .encode(
         x=alt.X("x", axis=None),
