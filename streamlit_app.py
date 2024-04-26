@@ -10,7 +10,7 @@ Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
 
-Jonathan is a goofball:
+the girls are goofballs:
 """
 
 num_points = st.slider("Number of points in spiral", 1,500, 100)
