@@ -13,8 +13,8 @@ forums](https://discuss.streamlit.io).
 the girls are goofballs:
 """
 
-num_points = st.slider("Number of points in spiral", 1,500, 100)
-num_turns = st.slider("Number of turns in spiral", 1, 400, 31)
+num_points = st.slider("Number of points in spiral", 1,5000, 1000)
+num_turns = st.slider("Number of turns in spiral", 1, 4000, 310)
 
 indices = np.linspace(0, 1, num_points)
 theta = 2 * np.pi * num_turns * indices
