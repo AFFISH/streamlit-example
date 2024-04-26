@@ -15,12 +15,10 @@ Jonathan is a goofball:
 
 num_points = st.slider("Number of points in spiral", 1,500, 100)
 num_turns = st.slider("Number of turns in spiral", 1, 400, 31)
-num_colors = st.slider("number of colors in spiral",1, 10, 1)
 
 indices = np.linspace(0, 1, num_points)
 theta = 2 * np.pi * num_turns * indices
 radius = indices
-colors=alt
 
 x = radius * np.cos(theta)
 y = radius * np.sin(theta)
@@ -40,3 +38,5 @@ st.altair_chart(alt.Chart(df, height=700, width=700)
         color=alt.Color("idx", legend=None, scale=alt.Scale()),
         size=alt.Size("rand", legend=None, scale=alt.Scale(range=[1, 150])),
     ))
+
+font color=red
