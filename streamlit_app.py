@@ -15,7 +15,7 @@ Jonathan is a goofball:
 
 num_points = st.slider("Number of points in spiral", 1,500, 100)
 num_turns = st.slider("Number of turns in spiral", 1, 400, 31)
-num_corner = st.slider("number of corners in spiral",1, 40, 15)
+num_corner = st.slider("number of corners in spiral",1, 4000, 400)
 
 indices = np.linspace(0, 1, num_points)
 theta = 2 * np.pi * num_turns * indices
